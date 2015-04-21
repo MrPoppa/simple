@@ -27,3 +27,22 @@ git remote rm name (i.e. origin)
 
 To clone a repo and give it a new name use 
 git clone git-url "newName"
+
+Okay, sooo...you create branch
+git branch cat
+git checkout cat
+ls
+git checkout master
+ls
+git checkout cat
+echo "text" newfile.txt  (-- creates new file with text and file name)
+git add, commit
+
+move to master
+git checkout master
+git merge cat
+git branch -d cat  (removes the branch)
+
+
+To create and checkout a branch instantly
+git checkout -b admin
