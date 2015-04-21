@@ -6,3 +6,8 @@ git checkout -- filename.
 
 To commit a file directly without going via add you can use 
 commit -am (or -a -m) "message"
+
+If I want to reset after committing I can use
+git reset --soft HEAD^
+This will bring it back into stage area. I can reset it again by using
+git reset HEAD (file-name optional)
