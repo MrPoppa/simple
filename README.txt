@@ -46,3 +46,5 @@ git branch -d cat  (removes the branch)
 
 To create and checkout a branch instantly
 git checkout -b admin
+
+added info to readme to create conflict....
