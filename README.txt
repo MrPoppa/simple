@@ -48,3 +48,12 @@ To create and checkout a branch instantly
 git checkout -b admin
 
 added info to readme to create conflict....
+
+When we update the same file at the same time on github via push.
+The second one will get rejected. 
+Using pull is the same as 
+git fetch
+ - and then  - 
+git merge origin/master
+And creates a commit!
+After that we must make a push to make sure the repo online and our local git is the same.
