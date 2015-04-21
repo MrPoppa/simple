@@ -21,3 +21,9 @@ To add credentials so you only have to specify your password and username ONCE:
 git config --global credential.helper wincred
 
 After next push and user-password thingy you're good to go.
+
+To remove remotes 
+git remote rm name (i.e. origin)
+
+To clone a repo and give it a new name use 
+git clone git-url "newName"
