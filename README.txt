@@ -15,4 +15,4 @@ git reset HEAD (file-name optional)
 To add github 
 git remote add origin https://github.com/Andersrapp/simple.git
 
-Check by using git remote -v
+Check by using git remote -v.
