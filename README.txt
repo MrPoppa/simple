@@ -11,3 +11,8 @@ If I want to reset after committing I can use
 git reset --soft HEAD^
 This will bring it back into stage area. I can reset it again by using
 git reset HEAD (file-name optional)
+
+To add github 
+git remote add origin https://github.com/Andersrapp/simple.git
+
+Check by using git remote -v
