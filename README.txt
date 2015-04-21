@@ -16,3 +16,8 @@ To add github
 git remote add origin https://github.com/Andersrapp/simple.git
 
 Check by using git remote -v.
+
+To add credentials so you only have to specify your password and username ONCE:
+git config --global credential.helper wincred
+
+After next push and user-password thingy you're good to go.
