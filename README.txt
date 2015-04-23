@@ -57,3 +57,21 @@ git fetch
 git merge origin/master
 And creates a commit!
 After that we must make a push to make sure the repo online and our local git is the same.
+
+-----
+We edited the same line in the same file in two places. So the first one adds, commits and pushes. Everything's fine!
+The second one adds, commits, pushes and is rejected. 
+He uses pull to merge the files but it fails!
+so he opens the files and solves the conflict between HEAD (local file) and the other.
+Then type:
+git commit -a    (without adding a message. it goes into editing mode. write :wq and hit enter)
+After that the parts are merged and we can push to update repo online. The other then has to make a pull!!
+
+
+-----
+
+
+To create a new branch directly and switch to it(checkout) use git branch -b 'branch-name'
+To push a branch to github use 
+-- git push origin 'branch-name' -- !!!
+
