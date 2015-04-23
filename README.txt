@@ -74,4 +74,8 @@ After that the parts are merged and we can push to update repo online. The other
 To create a new branch directly and switch to it(checkout) use git branch -b 'branch-name'
 To push a branch to github use 
 -- git push origin 'branch-name' -- !!!
+Sorry! That's wrong. First time you use 
+git push --set-upstream origin 'branch-name'
+
+
 
