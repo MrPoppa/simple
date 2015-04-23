@@ -85,3 +85,8 @@ git remote show origin -- will show us all the branches, tracked, remote and loc
 
 git branch remote -D branchname -- will delete the branch despite changes not being merged. 
 Capital D takes care of that! :)
+
+To create new tags
+git tag -a name -m description
+to see them write	 git tags
+to push them write git push --tags
