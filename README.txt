@@ -57,3 +57,7 @@ git fetch
 git merge origin/master
 And creates a commit!
 After that we must make a push to make sure the repo online and our local git is the same.
+
+
+git remote show origin -- will show us all the branches, tracked, remote and local
+
