@@ -77,5 +77,10 @@ To push a branch to github use
 Sorry! That's wrong. First time you use 
 git push --set-upstream origin 'branch-name'
 
+So in order to pull the branch from somewhere else
+If I send git pull I get info on new branch. 
+Type git branch will NOT show me the new branch yet - 
+but git branch -r - will!
+git checkout branch-name - will create local copy to work on!
 
 
