@@ -112,3 +112,7 @@ git diff HEAD^^
 git diff~5
 
 git diff HEAD^..HEAD
+
+use:
+git blame README.txt --date.short
+to print out every line that someone changed and which author that was!
