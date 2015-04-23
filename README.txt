@@ -90,3 +90,25 @@ To create new tags
 git tag -a name -m description
 to see them write	 git tags
 to push them write git push --tags
+
+to delete branch on remote type:
+git push origin :branch name
+
+To give your log a new look use:
+git log --pretty=format:".........."
+%ad = author date
+%an = author name
+%h = SHA hash
+%s = subject
+%d = ref names
+
+git log --since=1.hour.ago
+git log --until=1.hour.ago
+git log --since=1.day.ago --until=1.hour.ago
+
+git diff HEAD
+git diff HEAD^
+git diff HEAD^^
+git diff~5
+
+git diff HEAD^..HEAD
