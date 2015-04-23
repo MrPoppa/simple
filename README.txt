@@ -83,3 +83,5 @@ git checkout branch-name - will create local copy to work on!
 
 git remote show origin -- will show us all the branches, tracked, remote and local
 
+git branch remote -D branchname -- will delete the branch despite changes not being merged. 
+Capital D takes care of that! :)
