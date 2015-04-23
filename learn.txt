@@ -1,0 +1,27 @@
+git status
+git log
+git add 
+git commit -m "message"
+
+git diff 
+git diff --staged
+git reset HEAD (alla filer återställs)
+git reset HEAD <filename> (bara den filen återställs)
+git checkout -- <filename> (återställer den tidigare committade versionen av filen)
+git -a -m "message" (eller) git -am "message"
+
+git reset --soft HEAD^  (resettar commit till stagen genom att slänga tillbaka git till en version före HEAD)
+(ovanstående rad är bra om jag vill committa med fler filer som jag först glömde, eller dylikt.)
+git add todo.txt
+git commit --amend -m "message" (den här lägger till filen på tidigare commit och ersätter meddelandetexten)
+git reset --hard HEAD^  (Den kommer resetta till tidigare commit och slänga allt från den senaste).
+git reset --hard HEAD^^ (Den kommer resetta de två senaste commitarna till den innan dem)
+git remote add origin https....
+
+Gitosis, gitorious
+
+
+
+to escape > press Ctrl + C
+
+
