@@ -58,6 +58,28 @@ git merge origin/master
 And creates a commit!
 After that we must make a push to make sure the repo online and our local git is the same.
 
+-----
+We edited the same line in the same file in two places. So the first one adds, commits and pushes. Everything's fine!
+The second one adds, commits, pushes and is rejected. 
+He uses pull to merge the files but it fails!
+so he opens the files and solves the conflict between HEAD (local file) and the other.
+Then type:
+git commit -a    (without adding a message. it goes into editing mode. write :wq and hit enter)
+After that the parts are merged and we can push to update repo online. The other then has to make a pull!!
+
+-----
+
+To create a new branch directly and switch to it(checkout) use git branch -b 'branch-name'
+To push a branch to github use 
+-- git push origin 'branch-name' -- !!!
+Sorry! That's wrong. First time you use 
+git push --set-upstream origin 'branch-name'
+
+So in order to pull the branch from somewhere else
+If I send git pull I get info on new branch. 
+Type git branch will NOT show me the new branch yet - 
+but git branch -r - will!
+git checkout branch-name - will create local copy to work on!
 
 git remote show origin -- will show us all the branches, tracked, remote and local
 
