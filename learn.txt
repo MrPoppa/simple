@@ -70,6 +70,10 @@ Eventuellt måste du adda och committa här. Minns inte riktigt.
 
 
 
+
+
+
+
 Gitosis, gitorious
 
 to escape > press Ctrl + C
