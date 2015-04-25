@@ -110,7 +110,9 @@ Then you use git pull on the other machine and you will see the branch mentioned
 But it will not show up in your local branches.
 git branch -r  (will show you all the branches, even the remote ones)
 switch to admin by git checkout admin
-then do git remote show origin and see the branches and how they're pulled and pushed.
+then do 
+git remote show origin 
+and see the branches and how they're pulled and pushed.
 
 
 
