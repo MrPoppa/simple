@@ -187,7 +187,24 @@ git blame "file-name" --date short  (to see who edited the file when and what th
 ???????
 
 git rm -cached shop.txt (stop tracking file shop.txt -- but this does NOT work!)
-watch level 7 again!
+watch level 7 again from ....! 
+
+git config --global core.editor emacs (to set a certain editor)
+git config --global merge.tool opendiff (to better see merge conflicts in a better way)
+
+
+Also check aliases!
+
+
+
+
+
+
+
+
+
+
+
 
 Gitosis, gitorious
 
