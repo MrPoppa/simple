@@ -5,26 +5,27 @@ git commit -m "message"
 
 git diff 
 git diff --staged
-git reset HEAD (alla filer återställs)
-git reset HEAD <filename> (bara den filen återställs)
-git checkout -- <filename> (återställer den tidigare committade versionen av filen)
-git -a -m "message" (eller) git -am "message"
+git reset HEAD (all files are restored from staging area)
+git reset HEAD <filename> (only that particular file is restored from the staging area)
+git checkout -- <filename> (restores the file to the previously committed version)
+ - or - git checkout <filename> (utan -- )
+git -a -m "message" (eller) git -am "message"  (to make a direct commit)
 
 
 ------------only BEFORE push-------------
-git reset --soft HEAD^  (resettar commit till stagen genom att slänga tillbaka git till en version före HEAD)
-(ovanstående rad är bra om jag vill committa med fler filer som jag först glömde, eller dylikt.)
+git reset --soft HEAD^  (resets commit to the stage by throwing back to a version previous to HEAD)
+(the above is useful when I want to add files to my previous commit but forgot them at first.)
 git add todo.txt
-git commit --amend -m "message" (den här lägger till filen på tidigare commit och ersätter meddelandetexten)
-git reset --hard HEAD^  (Den kommer resetta till tidigare commit och slänga allt från den senaste).
-git reset --hard HEAD^^ (Den kommer resetta de två senaste commitarna till den innan dem)
+git commit --amend -m "message" (adds the file to the previous commit and allows me to replace the commit message)
+git reset --hard HEAD^  (will reset to previous commit and throw everything from the current one)
+git reset --hard HEAD^^ (same as above but will reset to the commit before last commit)
 ------------only BEFORE push-------------
 
 git remote add origin https....
 git remote -v  (to check what remotes you have added)
 git push -u origin master (to push it online to branch master)
 ...but this is incorrect. The right way should be:
-git --set-upstream origin master (or somthing like it, I NEED TO LOOK AT THIS AGAIN!)
+git --set-upstream origin master
 git push --set-upstream origin master
 git push --set-upstream origin 'branch-name' (if you want to set it on a branch name)
 git config --global credential.helper wincred (To set the password and user next time so that 
@@ -49,9 +50,9 @@ use git add, commit in branch first!
 Then git checkout master
 git merge cat
 git will fastforward because nothing was changed in master during this time.
-git branch -d cat will then delete cat branch
+git branch -d cat will delete cat branch
 git branch -D cat will delete cat branch and ignore unmerged changes!
-git checkout -b admin  (creates a new branch and checkous right away)
+git checkout -b admin  (creates a new branch and checkouts right away)
 stop working on admin and go back to master
 git checkout master
 use git pull to make sure you have the latest changes.
