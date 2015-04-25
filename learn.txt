@@ -94,6 +94,20 @@ This file is the truth!
 >>>>>>> 2fb4eeca8c6d4f2673fd1f4dd232b38a037d8295
 The last line is the hash of the latest commit to the online repo.
 HEAD is the local version. Edit manually to fix!
+Then write git commit -a   (do not add message)
+In VI editor press I to edit. But rather print :wq to quit and commit automatically.
+check git log to see the merge message!
+
+
+--------level 5-----------
+
+Use 
+git push origin 'branch-name'
+to add a branch to remote.
+
+
+
+
 
 
 
