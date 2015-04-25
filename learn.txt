@@ -70,6 +70,12 @@ Eventuellt måste du adda och committa här. Minns inte riktigt.
 
 I add info to create conflict!
 
+first we add to new files in repo on laptop and push online.
+Then we edit this file and try to push it.
+It will be rejected because the tip of my current branch is behind.
+Solve by:
+pull & then push
+
 
 
 
