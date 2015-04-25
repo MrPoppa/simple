@@ -179,7 +179,13 @@ git diff HEAD^^..HEAD  (difference between last commit and commit two commits ag
 git diff a25bb852..eee5bdd7e   (difference between different commits based on sha from git log)
 git diff master "branch-name"  (to compare master and branch, or other branches with each other)
 
-git blame "file-name" --date short
+git blame "file-name" --date short  (to see who edited the file when and what they added/deleted/edited)
+
+
+???????
+.git/info/exclue
+.gitignore  
+???????
 
 
 
