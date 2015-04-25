@@ -113,7 +113,15 @@ switch to admin by git checkout admin
 then do 
 git remote show origin 
 and see the branches and how they're pulled and pushed.
-
+add, commit and push your branch.
+Switch to master and to delete remote branch
+git push origin :admin
+git branch -d admin  (to delete locally) 
+If there are changes you haven't merged it will warn you. To discard change -d to -D
+To remove local references to branches that have already been deleted 
+while you were working on them. Use 
+git remote prune origin
+to remove stale references to deleted remote branches.
 
 
 
