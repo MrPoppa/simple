@@ -59,7 +59,7 @@ use git pull to make sure you have the latest changes.
 git add commit push to master remote
 git checkout admin to go back and finish our changes
 git add, commit
-git checkout master, git merge admin
+git checkout master, git merge admin 
 you end up in VI and you can add to message if you want.
 -else-
 hit escape and :wq to finish
@@ -68,11 +68,7 @@ Eventuellt måste du adda och committa här. Minns inte riktigt.
 
 ----level 4------
 
-a
-
-
-
-
+I add info to create conflict!
 
 
 
