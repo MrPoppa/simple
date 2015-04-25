@@ -145,7 +145,7 @@ then git rebase.
 It will bring the files down. When you rebase it will first do the regular commits 
 on your origin/master before adding the fetched files to commits and update the whole project.
 
-
+Check video 6 again from 01:50 about fetch and rebase.
 
 
 
