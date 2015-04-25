@@ -75,6 +75,9 @@ Then we edit this file and try to push it.
 It will be rejected because the tip of my current branch is behind.
 Solve by:
 pull & then push
+What happens is that it creates a fetch first to the branch origin/master. 
+Then it merges master with origin/master! It says "merge made by the recursive strategy"
+when we do push it updates origin/master to be at the same state as our local repo.
 
 
 
