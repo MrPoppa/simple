@@ -145,7 +145,41 @@ then git rebase.
 It will bring the files down. When you rebase it will first do the regular commits 
 on your origin/master before adding the fetched files to commits and update the whole project.
 
-Check video 6 again from 01:50 about fetch and rebase.
+!!!!!!!!!!!Check video 6 again from 01:50 about fetch and rebase.!!!!!!!!!
+
+
+----------level 7----------
+git log
+git config --global color.ui true   (will emphasize your commit hash in the log)
+git log --pretty=oneline  (pretty cool!)
+git log --pretty=format:%h %ad- %s [%an]
+%ad author dat
+%an author name
+%h sha hash
+%s subject
+%d ref names
+
+git log --oneline -p  (p for patch which will show you what lines were removed and so on)
+git log --oneline to show all on one line
+git log --oneline --stat  (how many insertions and deletions per file and commit)
+git log --oneline --graph (see a graph of your commits)
+
+
+specify range:
+git log --until=1.minute.ago
+git log --since=1.hour.ago
+combine to create time range.
+
+
+git diff HEAD   (is the same as git diff)
+git diff HEAD^  (is the difference between current edited files and files two commits ago)
+git diff HEAD^^ (another commit back and so on...)
+git diff HEAD~5 (diff between this and 5 commits ago)
+git diff HEAD^^..HEAD  (difference between last commit and commit two commits ago)
+git diff a25bb852..eee5bdd7e   (difference between different commits based on sha from git log)
+git diff master "branch-name"  (to compare master and branch, or other branches with each other)
+
+git blame "file-name" --date short
 
 
 
