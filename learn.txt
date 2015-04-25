@@ -122,8 +122,16 @@ To remove local references to branches that have already been deleted
 while you were working on them. Use 
 git remote prune origin
 to remove stale references to deleted remote branches.
+git tag  - to see all current tags.
+to add a new tag:
+git tag -a v0.0.3 -m "version 0.0.3"
+to change to another tag 
+git checkout v0.0.3
+git push --tags  (will push tags online)
+on github we can see the tags and look at them.
 
 
+--------------level 6------------
 
 
 
