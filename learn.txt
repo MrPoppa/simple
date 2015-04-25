@@ -135,6 +135,15 @@ on github we can see the tags and look at them.
 
 instead of merge. Use rebase
 
+edit file on stationary computer.
+add, commit, push
+
+do the same thing on laptop
+push will be rejected.
+use git fetch
+then git rebase.
+It will bring the files down. When you rebase it will first do the regular commits 
+on your origin/master before adding the fetched files to commits and update the whole project.
 
 
 
