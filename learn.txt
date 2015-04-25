@@ -79,6 +79,23 @@ What happens is that it creates a fetch first to the branch origin/master.
 Then it merges master with origin/master! It says "merge made by the recursive strategy"
 when we do push it updates origin/master to be at the same state as our local repo.
 
+next test:
+Edit the same line in the same file on two different computers.
+Then add, commit, push on one of them. 
+Then do the same thing on the other and you will get rejected.
+Do a git pull instead and get a conflict! "merge failed" "no changes added to commit"
+Open file and check:
+
+
+<<<<<<< HEAD
+This file is a lie!!!
+=======
+This file is the truth!
+>>>>>>> 2fb4eeca8c6d4f2673fd1f4dd232b38a037d8295
+The last line is the hash of the latest commit to the online repo.
+HEAD is the local version. Edit manually to fix!
+
+
 
 
 
