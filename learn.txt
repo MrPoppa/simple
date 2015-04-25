@@ -181,14 +181,13 @@ git diff master "branch-name"  (to compare master and branch, or other branches 
 
 git blame "file-name" --date short  (to see who edited the file when and what they added/deleted/edited)
 
-
 ???????
 .git/info/exclue
-.gitignore  
+.gitignore
 ???????
 
-
-
+git rm -cached shop.txt (stop tracking file shop.txt -- but this does NOT work!)
+watch level 7 again!
 
 Gitosis, gitorious
 
