@@ -210,8 +210,10 @@ add *.mp3 to remove all mp3 files.
 add song.mp3 to remove THIS file.
 add music/*.mp3 to remove mp3 files in music.
 
+To remove already tracked files:
+http://stackoverflow.com/questions/936249/stop-tracking-and-ignore-changes-to-a-file-in-git
 
-
+git update-index --assume-unchanged [path]  (path = hey/hey.txt for example)
 
 
 
