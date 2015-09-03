@@ -195,8 +195,20 @@ git config --global merge.tool opendiff (to better see merge conflicts in a bett
 
 Also check aliases!
 
+---------------
+chapter 7
+creating gitignore
+http://stackoverflow.com/questions/10744305/how-to-create-gitignore-file
+write:
 
+touch gitignore
 
+in the origin folder (with .git).
+Open file in text editor
+Add folderName/ to remove folder.
+add *.mp3 to remove all mp3 files.
+add song.mp3 to remove THIS file.
+add music/*.mp3 to remove mp3 files in music.
 
 
 
